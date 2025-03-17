@@ -9,11 +9,11 @@ import { banner3, bgImg } from '@/assets';
 export default function ServiceSlider({aboutdata}:any) {
   return (
     
-    <section className=" md:p-20  sm:p-12 p-1  static-bg">
+    <section className=" md:p-20  sm:p-12 p-6  static-bg">
      
        <div className="w-full text-center flex flex-col items-center gap-y-4 mb-7 md:mb-14">
               {aboutdata?.icon && (
-                <div className="text-brown2 text-5xl p-3 rounded-full border-2 border-brown2 w-max">
+                <div className="text-brown2 text-3xl sm:text-5xl p-3 rounded-full border-2 border-brown2 w-max">
                   {aboutdata.icon}
                 </div>
               )}
@@ -29,7 +29,7 @@ export default function ServiceSlider({aboutdata}:any) {
               )}
             </div>
 
-            <div className=" gap-y-8 p-5  flex flex-wrap justify-between items-stretch w-full">
+            <div className=" gap-y-8 py-5  flex flex-wrap justify-between items-stretch w-full">
         {aboutdata?.cards?.map((card: any) => (
           <div
             key={card.id}
