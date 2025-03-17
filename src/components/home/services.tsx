@@ -33,7 +33,7 @@ export default function ServiceSlider({aboutdata}:any) {
         {aboutdata?.cards?.map((card: any) => (
           <div
             key={card.id}
-            className="lg:w-[31.5%] w-[48%] bg-white duration-200 hover:rounded-none rounded-3xl hover:shadow-xl sm:p-8 p-3 group text-black"
+            className="lg:w-[31.5%] w-[48%] bg-white duration-200 hover:rounded-none sm:rounded-3xl hover:shadow-xl sm:p-8 p-3 group text-black"
           >
             <div className="text-4xl md:text-6xl text-brown2">
               {card?.icon}
