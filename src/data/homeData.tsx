@@ -218,22 +218,20 @@ export const WhychooseData = {
   img: about3,
 
   title1: " WHY CHOOSE US",
-  title2: "We design thoughtful, livable spaces.",
+  title2: "Trusted expert in architectural design and innovation.",
   para:
     "We design intentional and functional spaces that prioritize comfort and aesthetics, blending style with practicality to enhance your everyday living experience.",
-  faqs:[
+  counts:[
     {
       id:1,
-      que:"Building the future cities",
-      ans:"Smart buildings are components of smart cities. They encompass shopping malls, universities, airports, and council housing, tower blocks, homes, and offices."
+      amount:2000,
+      title:"Happy Client",
+      text:"Happy client let you Gather hundred of reviews"
     }, {
       id:2,
-      que:"Unique and influential design",
-      ans:" We offer a wide range of tours, including cultural, adventure, luxury, and customized itineraries. opular destinations include Europe, Africa (e.g., Morocco),"
-    }, {
-      id:3,
-      que:"Interior and exterior design",
-      ans:" We offer a wide range of tours, including cultural, adventure, luxury, and customized itineraries. opular destinations include Europe, Africa (e.g., Morocco),"
+      amount:1990,
+      title:"Successful Projects",
+      text:"Successful Projects delievers project advisory service."
     }
   ]
 }

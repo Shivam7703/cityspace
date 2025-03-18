@@ -5,13 +5,10 @@ import { motion } from "framer-motion";
 import { fadeIn,  staggerContainer} from '@/utils/motion';
 import { WhychooseData } from '@/data/homeData';
 import { BsArrowUpRightCircleFill } from 'react-icons/bs';
+import CountUp from 'react-countup';
 
 export default function WhyChoose() {
-  const [expandedCity, setExpandedCity] = useState<number>(1);
-
-  function toggleCity(cityId: number) {
-    setExpandedCity(cityId); // Toggles FAQ visibility for cities
-  }
+ 
   return (
     
     <motion.div  variants={staggerContainer(0.1, 0)} // Adjusted stagger settings
@@ -37,37 +34,18 @@ export default function WhyChoose() {
             {WhychooseData?.para}
           </p>
         )}
-      <div className='border-b my-4'></div>
-       {/* Cities as FAQ */}
-       {WhychooseData?.faqs.map((city) => (
-                <div key={city.id} className="mt-4 border-b pb-4">
-                  {/* FAQ Question */}
-                  <div
-                    onClick={() => toggleCity(city.id)}
-                    className="flex justify-between items-center cursor-pointer text-xl md:text-2xl text-zinc-800 font2 "
-                  >
-                    {city.que}
-
- 
-                    <BsArrowUpRightCircleFill className={` duration-300 ${expandedCity === city.id ? "rotate-180 " :"text-brown2"}`} />
-                   
-                  </div>
-
-                  {/* FAQ Answer with Transition */}
-                  <div
-                    className={`overflow-hidden transition-all duration-1000 ${
-                      expandedCity === city.id
-                        ? "max-h-20 mt-5 "
-                        : "max-h-0"
-                    }`}
-                  >
-                    <p className="md:!text-base h-20 overflow-auto !leading-relaxed text-sm font-medium text-zinc-500">
-                      {city.ans}
-                    </p>
-                   
-                  </div>
-                </div>
-              ))}
+      <div className='flex flex-wrap justify-between items-stretch'>{WhychooseData?.counts?.map((count)=>(
+        <div key={count?.id} className='w-[45%] py-2'> 
+        <div className=" text-brown2 font2 md:text-4xl text-2xl md:mb-3 xl:text-6xl">
+        <CountUp start={0} end={count.amount} delay={0.2} duration={2.75} separator="," /><span>+</span>
+        </div>
+        <h3 className='font2 md:text-2xl text-black text-lg'>{count?.title}</h3>
+        <div className='border-b mt-3 max-w-56 mb-4'></div>
+        <p className='text-zinc-600'>{count?.text}</p>
+        </div>
+      ))
+}</div>
+      
       </motion.div>
 
       <motion.div     variants={fadeIn("right", "tween", 0.3, 1)}
