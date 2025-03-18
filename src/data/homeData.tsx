@@ -1,4 +1,5 @@
 import { about, about2, about3, about5, about4, banner, banner2, banner3, banner4, cl1, logo2, about8, about7 } from "@/assets";
+import { BsBuildingsFill } from "react-icons/bs";
 import { FcHome, FcServices } from "react-icons/fc";
 import { GiAbstract052, GiAqueduct, GiChestnutLeaf, GiDiceTwentyFacesTwenty, GiOilPump } from "react-icons/gi";
 
@@ -120,17 +121,21 @@ export const crafting = {
 
 export const countDown=[
   {id:1,
-    icon:<GiChestnutLeaf />,
+    icon:<BsBuildingsFill />
+,
     title:"destinations worldwide",
     Value:"50"
   },{id:2,
-    icon:<GiChestnutLeaf />,
+    icon:<BsBuildingsFill />
+,
     title:"booking completed",
     Value:"750"
-  },{id:3,    icon:<GiChestnutLeaf />,
+  },{id:3,    icon:<BsBuildingsFill />
+,
     title:"destinations worldwide",
     Value:"6000"
-  },{id:4,     icon:<GiChestnutLeaf />,
+  },{id:4,     icon:<BsBuildingsFill />
+,
     title:"destinations worldwide",
     Value:"50"
   }
