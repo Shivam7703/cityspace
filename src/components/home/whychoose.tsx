@@ -1,10 +1,10 @@
 "use client";
+import CountUp from "react-countup";
 import React from 'react';
 import Image from 'next/image';
 import { motion } from "framer-motion";
 import { fadeIn,  staggerContainer} from '@/utils/motion';
 import { WhychooseData } from '@/data/homeData';
-import CountUp from "react-countup";
 export default function WhyChoose() {
  
   return (
