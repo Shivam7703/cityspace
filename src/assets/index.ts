@@ -2,8 +2,8 @@ import logo2 from "@/assets/logo-white.png";
 import logo from "@/assets/logo.png";
 import banner from "@/assets/home/Bannner1.jpg";
 import banner2 from "@/assets/home/Bannner2.jpg";
-import banner3 from "@/assets/home/Banner3.jpg";
-import banner4 from "@/assets/home/Banner4.jpg";
+import banner3 from "@/assets/home/Bannner1.jpg";
+import banner4 from "@/assets/home/Bannner2.jpg";
 import bgImg from "@/assets/home/bg-img.jpg";
 
 import about from "@/assets/home/about.png";
