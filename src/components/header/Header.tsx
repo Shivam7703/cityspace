@@ -10,7 +10,7 @@ import Image from "next/image";
 import { logo } from "@/assets";
 import { BiPhoneCall, BiSolidPhoneCall } from "react-icons/bi";
 import { usePathname } from "next/navigation";
-import { MdDownloadForOffline } from "react-icons/md";
+import { MdDownloadForOffline, MdDownloading } from "react-icons/md";
 import { BsArrowDownCircleFill } from "react-icons/bs";
 import { ul } from "motion/react-client";
 import { TfiEmail } from "react-icons/tfi";
@@ -140,17 +140,15 @@ export default Header;
 
 function RightSide(onTop: any) {
   return (
-<ul className="flex gap-5 text-2xl">
-<li className="w-max text-black hover:text-brown2"><a href="tel:+911234567890">
-<BiPhoneCall />
-    </a></li>
-    <li className="w-max text-black hover:text-brown2"><a href="tel:+911234567890">
-    <TfiEmail />
-    </a></li>
-    <li className="w-max text-black hover:text-brown2"><a href="tel:+911234567890">
-    <IoSearch />
-    </a></li>
-</ul>
+    <Link href={"/"} className="w-max">
+           
+    <div className="flex  gap-2 p-2 text-black hover:text-white font-bold rounded-[29px] group relative bg-white overflow-hidden items-center flex-row h-full">
+      <p className="ml-5 mr-3 z-20">Download Brochure</p>
+      <MdDownloading className="text-brown2 text-4xl bg-white group-hover:text-black duration-200  rounded-full z-20" />
+
+      <div className="group-hover:w-full duration-300 h-full bg-brown2 absolute z-10 w-0 top-0 right-0"></div>
+    </div>
+</Link>
 
 
     
