@@ -1,12 +1,10 @@
 "use client";
-import React, { useState } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import { motion } from "framer-motion";
 import { fadeIn,  staggerContainer} from '@/utils/motion';
 import { WhychooseData } from '@/data/homeData';
-import { BsArrowUpRightCircleFill } from 'react-icons/bs';
-import CountUp from 'react-countup';
-
+import CountUp from "react-countup";
 export default function WhyChoose() {
  
   return (
