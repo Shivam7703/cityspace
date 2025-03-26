@@ -5,27 +5,26 @@ function CountDown({ data }: any) {
   
   return (
     <section  className="relative  border-zinc-300 border-y">
-      <div className="w-full px-4 py-6 lg:px-20 md:py-14  sm:px-14 mx-auto flex flex-wrap gap-y-8 sm:gap-y-12  justify-between">
+      <div className="w-full px-4   sm:px-12 mx-auto flex flex-wrap sm:gap-y-12  justify-between">
         {data?.map((counts: any) => (
           <div
             key={counts?.id}
-            className="text-center max-md:pb-3 border-zinc-300 group last:border-none lg:border-r lg:w-1/4 w-1/2 md:px-12"
+            className=" max-md:px-3 py-6 md:py-14 max-sm:text-center border-zinc-300 group last:border-none lg:border-r lg:w-1/4 w-1/2 md:px-8"
           >
-            <div className="text-2xl sm:text-4xl lg:text-5xl mx-auto w-max md:mb-3 text-brown2 mt-3 duration-300 group-hover:!-mt-3 group-hover:!mb-3 sticky">
-              {counts?.icon}
-            </div>
+            <h3
+              className={`font-medium text-lg sm:text-[29px] sm:mb-3  text-black font2 ${counts.textColor}`}
+            >
+              {counts?.title}
+            </h3>
+            <p className="text-zinc-600  sm:text-base text-xs md:mb-8 mb-4">{counts?.para}</p>
             
              
-                  <div className=" text-brown2 font2 md:text-4xl text-3xl md:mb-3 xl:text-7xl font-bold">
+                  <div className=" text-brown2 font2 md:text-4xl text-3xl  xl:text-7xl font-medium">
                   <CountUp start={0} end={counts.Value} delay={0.2} duration={2.75} separator="," /><span>+</span>
                   </div>
               
          
-            <h3
-              className={`font-medium text-base sm:text-2xl text-black font2 ${counts.textColor}`}
-            >
-              {counts?.title}
-            </h3>
+            
           </div>
         ))}
       </div>

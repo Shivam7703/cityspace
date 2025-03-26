@@ -90,7 +90,7 @@ export default function Craft() {
           <SwiperSlide
             key={card.id}
             onMouseOver={() => handleImageChange(card.img)}
-            className="w-full group md:min-h-80 min-h-60 text-center float-end border-r border-zinc-500 relative"
+            className="w-full group md:min-h-80 min-h-[265px] text-center float-end border-r border-zinc-500 relative"
           >
             <div className="w-full flex p-6 md:p-10 flex-col md:h-24 h-full absolute bottom-8 duration-500 overflow-hidden items-center z-20 group-hover:h-full">
               <h5 className="text-3xl font2 my-4 text-white">

@@ -2,12 +2,11 @@
 import React from "react";
 import Image from "next/image";
 import { aboutdata } from "@/data/homeData";
-import { motion } from "framer-motion";
-import { fadeIn } from "@/utils/motion";
+
 import { FaCircleChevronRight } from "react-icons/fa6";
 import Link from "next/link";
 
-function AboutSection() {
+function AboutSection({isBtn}: { isBtn: boolean }) {
   return (
     <section className="lg:px-28 md:p-20 sm:p-12 p-7 max-w-[1580px] mx-auto flex items-stretch flex-wrap justify-between gap-y-7 ">
       <div className="sm:w-[42%] md:py-6 w-full  space-y-4 md:space-y-7">
@@ -40,6 +39,7 @@ function AboutSection() {
             </li>
           ))}
         </ul>
+        {isBtn && 
         <Link href={"/"} >
           <div className="flex  gap-2 p-2 text-black hover:text-white font-bold rounded-[29px] group relative bg-white overflow-hidden items-center flex-row w-max border">
             <p className="ml-5 mr-3 z-20">About Our Company</p>
@@ -48,6 +48,7 @@ function AboutSection() {
             <div className="group-hover:w-full duration-300 h-full bg-brown2 absolute z-10 w-0 top-0 right-0"></div>
           </div>
         </Link>
+}
       </div>
       <div
        

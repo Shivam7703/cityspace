@@ -9,7 +9,7 @@ import { BsArrowUpRightCircleFill } from "react-icons/bs";
 export default function Project() {
   
   return (
-   <div className="lg:px-28 md:p-20 sm:p-12 p-7 bg-[#2B3C3E]  flex max-md:flex-wrap justify-between gap-y-10 relative">
+   <div className="lg:px-28 md:p-20 sm:p-12 p-7 bg-blue1  flex max-md:flex-wrap justify-between gap-y-10 relative">
        <div className="md:sticky h-full top-28  md:w-[38%] w-full max-sm:text-center flex flex-col max-sm:items-center gap-y-4">
              {projectData?.icon && (
                <div className="text-brown2 text-2xl sm:text-5xl p-3 rounded-full border-2 border-brown2 w-max">

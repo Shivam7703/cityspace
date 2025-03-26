@@ -49,7 +49,7 @@ export default function Blogs() {
   };
 
   return (
-    <section className=" lg:p-28 sm:p-12 p-7 relative slider1 flex flex-col items-center">
+    <section className=" lg:px-28 md:p-20 sm:p-12 p-7 relative slider1 flex flex-col items-center">
       <div className="w-full text-center flex flex-col items-center gap-y-4 mb-7 md:mb-14">
               {blogData?.icon && (
                 <div className="text-brown2 text-5xl p-3 rounded-full border-2 border-brown2 w-max">
@@ -76,7 +76,7 @@ export default function Blogs() {
         {blogData?.blogs?.map((cards: any) => (
           <SwiperSlide
             key={cards.id}
-            className="mb-20 w-full p-3 "
+            className="mb-12 w-full p-3 "
           >
             <div className=" w-full h-full bg-white rounded-xl">
               <div className="relative rounded-3xl overflow-hidden w-full h-60">

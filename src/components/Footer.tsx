@@ -10,7 +10,7 @@ import { TbBrandYoutubeFilled } from "react-icons/tb";
 export default function Footer({ footer }: any) {
   return (
     <>
-      <footer className="md:px-20 sm:p-16 p-6  w-full z-20  text-white bg-[#2B3C3E]  relative">
+      <footer className="md:px-20 sm:p-16 p-6  w-full z-20  text-white bg-blue1  relative">
         {/* NewsLetter Section  */}
 
         {/* Footer links section  */}

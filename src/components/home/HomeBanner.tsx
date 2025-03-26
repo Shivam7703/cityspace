@@ -79,7 +79,7 @@ function HomeBannerCard({
   btntext,
 }: any) {
   return (
-    <div className="relative w-full overflow-hidden  text-white md:h-[105vh] min-h-[56vh]">
+    <div className="relative w-full overflow-hidden  text-white md:h-[105vh] min-h-[520px]">
       {/* Full-size image */}
       <Image
         src={img} // Use the dynamic image passed in
