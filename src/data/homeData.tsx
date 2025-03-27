@@ -14,7 +14,6 @@ import {
   about7,
 } from "@/assets";
 import { AiFillOpenAI } from "react-icons/ai";
-import { BsBuildingsFill } from "react-icons/bs";
 import { FcHome, FcServices } from "react-icons/fc";
 import {
   GiAbstract052,
@@ -22,9 +21,11 @@ import {
   GiDiceTwentyFacesTwenty,
   GiOilPump,
 } from "react-icons/gi";
+import { IoCallSharp, IoMailUnread } from "react-icons/io5";
+import { LuPhone } from "react-icons/lu";
 
-import { RiSofaFill } from "react-icons/ri";
-import { SiInfluxdb } from "react-icons/si";
+import { RiMailSendLine, RiSofaFill } from "react-icons/ri";
+import { SlLocationPin } from "react-icons/sl";
 
 // homepage
 export const navItemsArray = [
@@ -276,13 +277,13 @@ export const WhychooseData = {
   counts: [
     {
       id: 1,
-      amount: 2000,
+      amount: 1200,
       title: "Happy Client",
       text: "Happy client let you Gather hundred of reviews",
     },
     {
       id: 2,
-      amount: 1990,
+      amount: 1000,
       title: "Successful Projects",
       text: "Successful Projects delievers project advisory service.",
     },
@@ -364,7 +365,7 @@ export const projectData = {
       id: 6,
       title: "Haven & Harmony",
       text: "Tech Innovations Inc.",
-      img: about8,
+      img: about5,
     },
 
     {
@@ -450,10 +451,6 @@ export const footer = {
     ],
   },
 
-  newLetter: {
-    title: "Contact Us",
-    description: "Subscribe to our newsletter to get latest news and updates.",
-  },
 };
 
 // about Page
@@ -498,4 +495,56 @@ export const serviceBanner = {
     "lorem Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus",
   slug: "services",
   img: banner,
+};
+
+// contact page
+export const contactBanner = {
+  title: "Contact Us",
+  para:
+    "lorem Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus",
+  slug: "contact-us",
+  img: banner,
+};
+
+export const contactData = {
+  title: "Reasons to choose City Space for Architecture",
+ points:[
+  {id:1,
+    text:"We always work to give the best to our clients. Our seasoned professionals have years of experience in immigration consultancy."
+  },
+  {id:2,
+    text:"We always work to give the best to our clients. Our seasoned professionals have years of experience in immigration consultancy."
+  }, {id:3,
+    text:"We always work to give the best to our clients. Our seasoned professionals have years of experience in immigration consultancy."
+  }, {id:4,
+    text:"We always work to give the best to our clients. Our seasoned professionals have years of experience in immigration consultancy."
+  }, {id:5,
+    text:"We always work to give the best to our clients. Our seasoned professionals have years of experience in immigration consultancy."
+  }, {id:6,
+    text:"We always work to give the best to our clients. Our seasoned professionals have years of experience in immigration consultancy."
+  },
+ ],
+  details:[
+{
+  id:1,
+  icon:<LuPhone /> ,
+  para:"Contact No.",
+  text:"+91 9876543210",
+  slug:"tel:+919876543210"
+},
+{
+  id:2,
+  icon:<RiMailSendLine />  , 
+   para:"E-mail Address",
+  text:"hello@cityspace.com",
+  slug:"mailto:hello@cityspace.com"
+},
+{
+  id:3,
+  icon:<SlLocationPin /> , 
+   para:"Office Address",
+  text:"Spokane Valley, WA 99212, USA",
+  slug:"#"
+},
+  ]
 };

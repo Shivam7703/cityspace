@@ -106,7 +106,7 @@ export default function Footer({ footer }: any) {
           </div>
           <div className=" flex flex-col space-y-3  col-span-3 md:px-5 ">
             <h4 className="my-2 text-base border-b pb-2  font-semibold">
-              {footer?.newLetter?.title}
+             Contact Us
             </h4>
             <p className=" transition:all text-base text-white ">
               <strong>Phone: </strong>&nbsp;+91 1234567890

@@ -1,5 +1,5 @@
-import Bestchoice from '@/components/about/bestchoice'
 import Banner from '@/components/global/banner'
+import Craft from '@/components/home/crafting'
 import HowweWork from '@/components/home/howwework'
 import Servicecards from '@/components/service/cards'
 import { howwork, serviceBanner } from '@/data/homeData'
@@ -13,7 +13,7 @@ function page() {
       para={serviceBanner.para}
       slug={serviceBanner.slug}/>
       <Servicecards/>
-      {/* <Bestchoice/> */}
+<Craft/>
       <HowweWork aboutdata={howwork}/>
       
     </>
