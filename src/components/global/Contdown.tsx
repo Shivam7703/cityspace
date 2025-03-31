@@ -12,7 +12,7 @@ function CountDown({ data }: any) {
             className=" max-md:px-3 py-6 md:py-14 max-sm:text-center border-zinc-300 group last:border-none lg:border-r lg:w-1/4 w-1/2 md:px-8"
           >
             <h3
-              className={`font-medium text-lg sm:text-[29px] sm:mb-3  text-black font2 ${counts.textColor}`}
+              className={`font-medium text-lg sm:text-[29px] sm:mb-3  text-black font2 `}
             >
               {counts?.title}
             </h3>

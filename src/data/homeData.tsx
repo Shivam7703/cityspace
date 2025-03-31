@@ -21,6 +21,7 @@ import {
   GiDiceTwentyFacesTwenty,
   GiOilPump,
 } from "react-icons/gi";
+import { GrLocation } from "react-icons/gr";
 import { IoCallSharp, IoMailUnread } from "react-icons/io5";
 import { LuPhone } from "react-icons/lu";
 
@@ -368,19 +369,6 @@ export const projectData = {
       img: about5,
     },
 
-    {
-      id: 7,
-      title: "Haven & Harmony",
-      text: "Tech Innovations Inc.",
-      img: about4,
-    },
-
-    {
-      id: 8,
-      title: "Haven & Harmony",
-      text: "Tech Innovations Inc.",
-      img: banner2,
-    },
   ],
 };
 
@@ -530,21 +518,27 @@ export const contactData = {
   icon:<LuPhone /> ,
   para:"Contact No.",
   text:"+91 9876543210",
-  slug:"tel:+919876543210"
+  text2:"+91 9123456780",
+  slug1:"#",
+  slug2:"#"
 },
 {
   id:2,
   icon:<RiMailSendLine />  , 
    para:"E-mail Address",
   text:"hello@cityspace.com",
-  slug:"mailto:hello@cityspace.com"
+  text2:"info@cityspace.com",
+   slug1:"#",
+  slug2:"#"
 },
 {
   id:3,
-  icon:<SlLocationPin /> , 
+  icon:<GrLocation />  , 
    para:"Office Address",
-  text:"Spokane Valley, WA 99212, USA",
-  slug:"#"
+  text:"5609 E Sprague Ave, Spokane ",
+  text2:"Valley, WA 99212, USA",
+   slug1:"#",
+  slug2:"#"
 },
   ]
 };
