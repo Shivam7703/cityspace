@@ -1,5 +1,5 @@
 import AboutSection from "@/components/home/AboutSection";
-import { howwork, ourService } from "@/data/homeData";
+import { aboutdata, howwork, ourService } from "@/data/homeData";
 
 import Blogs from "@/components/home/blog";
 import CountDown from "@/components/global/Contdown";
@@ -18,11 +18,12 @@ export default function Home() {
     < >
 <BannerSlider/>
 {/* <Greenbox/> */}
-<AboutSection isBtn={true}/>
+<AboutSection isBtn={true} data={aboutdata}
+/>
 <CountDown data={countDown}/>
 <Craft/>
 <HowweWork aboutdata={howwork}/>
-<ServiceSlider  aboutdata={ourService}/>
+<ServiceSlider  data={ourService}/>
 <WhyChoose/>
 <Testimonials/>
 <Project/>

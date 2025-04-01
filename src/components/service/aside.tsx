@@ -2,31 +2,28 @@ import { banner, banner2 } from "@/assets";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import { FaCircleChevronDown, FaCircleChevronRight } from "react-icons/fa6";
 import { IoArrowDownCircleSharp } from "react-icons/io5";
+import { ourService } from "@/data/homeData";
 
-function Aside() {
+function Aside({title}:{title :string}) {
   return (
     <>
-     <div className="border-2 font-medium  border-brown2 p-5 md:p-9 rounded-2xl">
+     <div className="border-2 font-medium  border-brown2 p-5 md:p-9 rounded-2xl ">
 <h3 className="md:text-3xl text-xl border-b pb-3 text-black font2">Our Services</h3>
 <ul className="space-y-2 mt-4 ">
-    <li className="hover:text-brown2 text-zinc-700"><Link href={"#"}>lorem ipsom hoyu</Link></li>
-
-    <li className="hover:text-brown2 text-zinc-700"><Link href={"#"}>lorem ipsom hoyu</Link></li>
-
-    <li className="hover:text-brown2 text-zinc-700"><Link href={"#"}>lorem ipsom hoyu</Link></li>
-
-    <li className="hover:text-brown2 text-zinc-700"><Link href={"#"}>lorem ipsom hoyu</Link></li>
-
-    <li className="hover:text-brown2 text-zinc-700"><Link href={"#"}>lorem ipsom hoyu</Link></li>
-
-    <li className="hover:text-brown2 text-zinc-700"><Link href={"#"}>lorem ipsom hoyu</Link></li>
+{ourService?.cards?.map((service) => (
+  <li
+    key={service?.id}
+    className={service?.heading === title ? "text-brown2" : "hover:text-brown2 text-zinc-700"}
+  >
+    <Link href={`${service?.heading}`}>{service?.heading}</Link>
+  </li>
+))}
 </ul>
      </div>
 
 {/* 2nd part */}
-     <div   className="lg:h-[420px] relative md:h-96 h-72 w-full group rounded-3xl overflow-hidden"
+     <div   className="lg:h-[420px]  relative md:h-96 h-72 w-full group rounded-3xl overflow-hidden"
                  >
                    <Image
                      src={banner}
@@ -37,7 +34,7 @@ function Aside() {
                      <div>
                        <h4 className=" text-sm font-extrabold text-brown2">modern & luxurious
                        </h4>
-                       <h2 className=" sm:text-4xl text-3xl  mt-2 font-medium">Architecture & Design</h2>
+                       <h2 className=" sm:text-4xl text-3xl  mt-2 font-medium">{title}</h2>
                      </div>
                     
                    </div>
@@ -45,7 +42,7 @@ function Aside() {
 
 
 {/* 3rd section */}
-                 <div   className="lg:h-[520px] relative md:h-96 h-72 w-full group rounded-3xl overflow-hidden"
+                 <div   className="lg:h-[520px]  relative md:h-96 h-72 w-full group rounded-3xl overflow-hidden"
                  >
                    <Image
                      src={banner2}

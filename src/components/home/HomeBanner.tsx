@@ -49,6 +49,7 @@ export default function HomeBanner() {
             <HomeBannerCard
               img={item?.img}
               title={item?.title}
+              welcome={item?.welcome}
               btntext={item?.btntext}
               para={item?.para}
               key={currentSlide} // Re-trigger animation when slide changes
@@ -76,6 +77,7 @@ function HomeBannerCard({
   img, 
   title,
   para,
+  welcome,
   btntext,
 }: any) {
   return (
@@ -99,7 +101,7 @@ function HomeBannerCard({
           className="col-span-2 flex h-full w-full flex-col max-w-[890px] max-md:text-center justify-center gap-6 md:px-11 max-md:items-center"
         ><div className="flex items-center"><GoStarFill  className="animate-x1 p-3 text-5xl text-white rounded-full bg-brown2"/>
 
-          <h4 className="text-white text-xs sm:!text-sm px-4 py-2 rounded-full border ">Lorem ipsum sit amet.</h4></div>
+          <h4 className="text-white text-xs sm:!text-sm px-4 py-2 rounded-full border ">{welcome}</h4></div>
           <h1 className="inline-block !leading-[1.1] text-4xl font-medium md:text-[88px] ">
             {title} 
           </h1>

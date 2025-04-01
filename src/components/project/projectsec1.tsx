@@ -30,7 +30,7 @@ export default function Projectsec1() {
     <Image src={pro?.img} alt={"image"} className='absolute duration-300 top-0 left-0 w-full h-full object-cover group-hover:scale-110'/>
     <h4 className="font2 lg:text-7xl text-5xl text-white absolute top-4 right-4 z-40 duration-200 opacity-65 group-hover:opacity-100 font-extrabold ">0{pro?.id}</h4> 
   </div>
-  <Link href={"#"} className='sm:text-3xl hover:text-brown2 text-2xl font2  text-black'>{pro?.title}</Link>
+  <Link href={"projects/xyz"} className='sm:text-3xl hover:text-brown2 text-2xl font2  text-black'>{pro?.title}</Link>
   <p className='mt-3 text-zinc-800'>Once the design fee has been agreed, we will then visit the property to carry out a full site survey.</p>
 </div>
           ))}

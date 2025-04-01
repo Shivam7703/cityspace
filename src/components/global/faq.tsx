@@ -32,7 +32,7 @@ function Faq({data}:any) {
                               : "max-h-0"
                           }`}
                         >
-                          <p className="md:!text-base h-20 overflow-auto !leading-relaxed text-sm font-medium text-zinc-500">
+                          <p className="md:!text-base max-h-20 overflow-auto !leading-relaxed text-sm font-medium text-zinc-500">
                             {city.ans}
                           </p>
                          

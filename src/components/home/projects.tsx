@@ -30,7 +30,7 @@ export default function Project() {
             {projectData.para}
           </p>
         )}
-        <Link href={"/"} className="w-max">
+        <Link href={"/projects"} className="w-max">
           <div className="flex  gap-2 p-2 text-black hover:text-white font-bold rounded-[29px] group relative bg-white overflow-hidden items-center flex-row h-full">
             <p className="ml-5 mr-3 z-20">View All Projects</p>
             <FaCircleChevronRight className="text-brown2 text-4xl bg-white group-hover:text-black duration-200  rounded-full z-20" />
@@ -58,7 +58,7 @@ export default function Project() {
                 </div>
                 <div>
                   <Link
-                    href="#"
+                    href={"projects/xyz"}
                     className="flex items-center gap-x-2 group/link"
                   >
                     <BsArrowUpRightCircleFill className="text-brown2 rounded-full text-3xl sm:text-6xl bg-white group-hover/link:rotate-45 duration-300" />

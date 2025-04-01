@@ -1,6 +1,5 @@
 "use client";
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { BsArrowUpRightCircleFill } from 'react-icons/bs';
 
@@ -41,7 +40,7 @@ export default function HowweWork({aboutdata}:any) {
             </h2>
             <p className="text-sm md:text-base font-medium my-4 md:my-6 text-zinc-500">{card?.text}</p>
 
-            <Link href="#" className="flex items-center gap-x-2 group/link">
+            <Link href="/services" className="flex items-center gap-x-2 group/link">
               <p className="text-sm md:font-extrabold">LEARN MORE</p> 
               <BsArrowUpRightCircleFill className="text-brown2 rounded-full text-xl bg-white group-hover/link:rotate-45 duration-300" />
             </Link>

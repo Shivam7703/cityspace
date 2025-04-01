@@ -4,7 +4,7 @@ import WhyChoose2 from '@/components/about/whychoose2'
 import Banner from '@/components/global/banner'
 import CountDown from '@/components/global/Contdown'
 import AboutSection from '@/components/home/AboutSection'
-import { aboutBanner, countDown } from '@/data/homeData'
+import { aboutBanner, aboutdata2, countDown } from '@/data/homeData'
 import React from 'react'
 
 function page() {
@@ -14,7 +14,7 @@ function page() {
 title={aboutBanner.title}
 para={aboutBanner.para}
 slug={aboutBanner.slug}/>
-<AboutSection isBtn={false}/>
+<AboutSection isBtn={false} data={aboutdata2}/>
 <CountDown data={countDown}/>
 <Mission/>
 <Bestchoice/>
