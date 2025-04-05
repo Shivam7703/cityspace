@@ -89,13 +89,12 @@ export default function Blogs() {
               <div className="text-zinc-500 text-sm mt-2 font-medium">
                 Published on: {cards.date}
               </div>
-
               <h3 className="text-xl font2 font-medium sm:text-2xl my-4 text-zinc-800 ">
                 {cards.title}
               </h3>
-              <p className="text-zinc-600 text-base !tracking-wide border-b pb-4">{cards.text}</p><br />
-              <Link href="#" className="flex items-center gap-x-2 group/link">
-              <p className="text-sm text-black sm:font-extrabold">LEARN MORE</p> 
+              <p className="text-zinc-600 text-base !tracking-wide border-b pb-4">{cards.text.slice(0,160)}....</p><br />
+              <Link href={`blogs/${encodeURIComponent(cards?.title)}`} className="flex items-center gap-x-2 group/link">
+              <p className="text-sm text-black sm:font-extrabold">READ MORE</p> 
               <BsArrowUpRightCircleFill className="text-brown2 rounded-full text-xl bg-white group-hover/link:rotate-45 duration-300" />
             </Link>
               </div>

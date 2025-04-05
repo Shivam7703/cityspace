@@ -7,8 +7,9 @@ function page() {
     <>
       <Banner img ={""}
                   title="Our Blogs"
-                  para="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit id adipisci laboriosam amet praesentium illum?"
-                  slug="slug here"/>
+                  para="Explore design trends, construction tips, and creative solutions.
+Your go-to source for transforming spaces beautifully."
+                  slug="blogs"/>
                   <Blogs/>
                   
     </>

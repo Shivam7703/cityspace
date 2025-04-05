@@ -16,7 +16,7 @@ function Aside({title}:{title :string}) {
     key={service?.id}
     className={service?.heading === title ? "text-brown2" : "hover:text-brown2 text-zinc-700"}
   >
-    <Link href={`${service?.heading}`}>{service?.heading}</Link>
+    <Link href={`/services/${encodeURIComponent(service?.heading || '')}`}>{service?.heading}</Link>
   </li>
 ))}
 </ul>

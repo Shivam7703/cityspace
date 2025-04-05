@@ -94,3 +94,22 @@ h4{
   background-repeat: no-repeat;
 }
 
+
+.content{
+  h1{
+    font-size: 2.6rem;
+    font-weight: bold;
+  }
+  h2{
+      font-size: 2rem;
+      font-weight: bold;
+  }
+ ul, p{
+    color: rgb(52, 52, 52);
+    margin: 1rem 0;
+  }
+  li {
+    list-style-type: disc;
+    margin-left: 1.5em; /* optional for spacing */
+  }
+}

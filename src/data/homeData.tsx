@@ -389,25 +389,280 @@ export const blogData = {
   blogs: [
     {
       id: 1,
-      title: "Learn more about the Best Electric Cars and Charging Time",
+      title: "The Best Builders in Delhi-Building Comfort For Your Living",
       text:
-        "In this post, we take a look at the best electric cars currently on the market today and how long it would take to charge each to its full capacity.",
+        "People strive for their dreams through the selection of top builders who operate well. Cityspace, the best builders in Delhi, successfully developing any quality property or space requires selecting an appropriate builder who does matters. People face difficulties when choosing a builder from the many available choices. Certain builders gain distinction because they combine their superior workmanship with revolutionary designs and their ability to finish projects on schedule.",
+        text2:
+        `<div style="max-width: 900px; margin: 40px auto; padding: 30px; background-color: #fff;">
+
+    <h1 style=" color: #2c3e50;">The Best Builders in Delhi - Building Comfort For Your Living</h1>
+
+    <p>People strive for their dreams through the selection of top builders who operate well. Cityspace, the best builders in Delhi, successfully developing any quality property or space requires selecting an appropriate builder who does matters. People face difficulties when choosing a builder from the many available choices. Certain builders gain distinction because they combine their superior workmanship with revolutionary designs and their ability to finish projects on schedule.</p>
+
+    <p>Selecting the best builders in Delhi means investing in long-term quality and value. A reliable builder ensures that every project is well-planned, structurally sound, and aesthetically pleasing. They work with expert interior designers in Delhi NCR to create functional and elegant spaces tailored to your needs. With their experience and expertise, they turn construction into an art form, making your dream home or office a reality.</p>
+
+    <h2 style="color: #34495e;">Why Choosing the Best Builders in Delhi Matters</h2>
+    <p>The building market in Delhi currently experiences strong growth while various developers offer to produce high-end construction projects. A majority of builders fail to produce the results they advertise to customers. The best builders in Delhi promise the following commitments—</p>
+    <ul>
+      <li>High-quality construction with premium materials</li>
+      <li>Modern and aesthetic architectural designs</li>
+      <li>Compliance with legal and safety regulations</li>
+      <li>Timely project delivery without unnecessary delays</li>
+      <li>Affordable pricing with flexible payment plans</li>
+    </ul>
+
+    <h2 style="color: #34495e;">CitySpace—Redefining Construction and Interior Design in Delhi</h2>
+    <p>The reliable builders that stand out in the industry are found within CitySpace. The company established itself through its work and is the best interior designer in Delhi. Their construction sector expertise extends to interior design, where they operate as a leading Delhi-based company that delivers homes along with professional office structures featuring elegance and style.</p>
+
+    <h2 style="color: #34495e;">Why Choose CitySpace?</h2>
+    <ul>
+      <li><strong>Quality Construction</strong>—Cityspace Contracts builds durable structures using premium materials along with expert craftsmanship for permanent use.</li>
+      <li><strong>Innovative Designs</strong>—Cityspace is the best interior designer in Delhi NCR who specializes in modern contemporary approaches for living spaces and business premises.</li>
+      <li><strong>On-Time Delivery</strong>—The organization completes projects at the right time to let customers obtain their desired homes without any delays.</li>
+      <li><strong>Affordable Pricing</strong>—At CitySpace, customers find excellent affordability combined with superior quality standards for which they choose to conduct business.</li>
+      <li><strong>Customization Options</strong>—Each project developed at their company benefits from specific design customization according to personal client needs.</li>
+    </ul>
+
+    <h2 style="color: #34495e;">Interior Designers in Delhi NCR—Creating Stylish Spaces</h2>
+    <p>Quality structures need extraordinary interior finishes to be truly done. Seeking a professional interior design company in Delhi is as important as selecting a suitable builder for a home project. Superior builders operating in Delhi cooperate with competent interior designers throughout Delhi NCR to deliver comprehensive residential and office solutions.</p>
+
+    <p>Each space receives innovative and elegant treatment through the creative work of the best interior designers in Delhi NCR, regardless of the chosen modern minimalist or traditional royal aesthetic. We specialize in—</p>
+    <ul>
+      <li>Home interior design</li>
+      <li>Office and commercial space decor</li>
+      <li>Luxury and theme-based designs</li>
+      <li>Modular kitchen and bathroom designs</li>
+      <li>Space optimization and smart storage solutions</li>
+    </ul>
+
+    <h2 style="color: #34495e;">Best Builders in Delhi—Enhancing Aesthetics with Elegance</h2>
+    <p>The interior design goes beyond the proper framework because it includes aesthetic components. Interior decorators in Delhi hold a crucial position because they finish all residential and commercial spaces in the city. Interior designers carefully choose the furniture items and match colors to guarantee that each element works well with the designated space.</p>
+
+    <p>The best interior designers in Delhi furnish their clients with the following professional services—</p>
+    <ul>
+      <li>Furniture selection and its placement</li>
+      <li>Color theme and wallpaper designs</li>
+      <li>Lighting and décor arrangement</li>
+      <li>Curtain and upholstery selection</li>
+      <li>Art and accessory styling</li>
+    </ul>
+
+    <h2 style="color: #34495e;">Why the Best Builders in Delhi Are a Game Changer</h2>
+    <p>The infrastructure, together with the real estate sector of Delhi, has experienced substantial advancement through the years. The best builders in Delhi infrastructure incorporate contemporary architectural elements into their new building projects. Some key points are—</p>
+    <ul>
+      <li><strong>Structural Strength</strong>—Building materials of superior quality make these structures durable.</li>
+      <li><strong>Energy Efficiency</strong>—The orientation of several builders includes environmentally sensitive, sustainable construction approaches.</li>
+      <li><strong>Smart Homes</strong>—Top builders now implement automated lighting systems as well as security systems, which integrate technological features into their work.</li>
+      <li><strong>Space Optimization</strong>—Builders maximize space usage to build contemporary and practical house designs.</li>
+      <li><strong>Investment Value</strong>—Homes constructed by sanctioned builders gain premium resale value and yield rewards of superior value.</li>
+    </ul>
+
+    <h2 style="color: #34495e;">Choosing the Best Builders in Delhi</h2>
+    <p>The builders establish solid structures, yet interior design applications breathe new life into space. Selecting a trusted interior design company in Delhi ensures your home reflects your personality. Here’s what to look for—</p>
+    <ul>
+      <li>Portfolio of previous projects</li>
+      <li>Customer reviews and testimonials</li>
+      <li>Builders use top-end construction materials together with current design trends.</li>
+      <li>Customization and personalized approach</li>
+      <li>Budget-friendly solutions with quality assurance</li>
+    </ul>
+
+    <h2 style="color: #34495e;">Conclusion</h2>
+    <p>The search for the best builders in Delhi leads to crucial success in developing high-quality permanent spaces that possess both durability and stylish aesthetics. CitySpace builds superior homes while providing top-quality interior design support to its clients. CitySpace represents a complete solution that supplies interior designers in Delhi NCR alongside interior decorators in Delhi and a trusted interior design company in Delhi.</p>
+
+  </div>
+`,
       date: "05/09/23",
       img: about7,
     },
     {
       id: 2,
-      title: "Learn more about the Best Electric Cars and Charging Time",
+      title: "Best Interior Designers in Delhi—Designing Beautiful Spaces",
       text:
-        "In this post, we take a look at the best electric cars currently on the market today and how long it would take to charge each to its full capacity.",
+        "Delhi's Top Interior Designer What you need is the service that the best interior designers in Delhi provide to create a magical and useful space. The right design is the one that makes your home, office, or commercial space feel better to live in, look at, and work in. Healthy and diverse options for designers can be overwhelming as well. Minimalism aside, experienced professionals do make quality work, new designs, and on-time delivery.",
+        text2:` <div style="max-width: 900px; margin: 40px auto; background-color: white; padding: 30px;">
+
+    <h1 style=" color: #2c3e50;">Best Interior Designers in Delhi—Designing Beautiful Spaces</h1>
+
+    <p>Delhi's Top Interior Designer What you need is the service that the best interior designers in Delhi provide to create a magical and useful space. The right design is the one that makes your home, office, or commercial space feel better to live in, look at, and work in. Healthy and diverse options for designers can be overwhelming as well. Minimalism aside, experienced professionals do make quality work, new designs, and on-time delivery.</p>
+
+    <p>The best designers blend creativity with functionality, ensuring that designs are not just visually appealing but also enhance the overall experience of the space. Whether it's optimizing small areas for maximum utility or adding luxurious elements to large spaces, professional designers bring a balance of aesthetics and practicality, making every project truly exceptional.</p>
+
+    <h2 style="color: #34495e;">Why Choose the Best Interior Designers in Delhi?</h2>
+    <p>Finding the best interior designers in Delhi is a must for getting the right mix of aesthetics and functionality. Here are some key advantages of hiring the best interior designers—</p>
+    <ul>
+      <li>Designs that reflect your lifestyle and are one of a kind</li>
+      <li>Versatility for Big, Green, and Smart Space Small Space Solutions</li>
+      <li>Best quality material to last and look good</li>
+      <li>Familiarity with design, both traditional and modern</li>
+      <li>Security to execute with project management by professionals</li>
+    </ul>
+
+    <h2 style="color: #34495e;">Best Interior Designers in Delhi for Home Interiors</h2>
+    <p>Home is no less a manifestation of your identity, and the best interior designers in Delhi take care that nothing goes unnoticed. They specialize in—</p>
+    <ul>
+      <li>Stylish living room decor, extravagant furniture & lighting</li>
+      <li>Space-saving interior of luxury bedroom</li>
+      <li>High-End Kitchen Modular Designs</li>
+      <li>Beautiful dining spaces that are cool and cozy</li>
+      <li>Custom accent ideas to cozy your home</li>
+    </ul>
+
+    <h2 style="color: #34495e;">Best Interior Designers in Delhi for Office Spaces</h2>
+    <p>A well-designed office maximizes productivity and provides you with a healthy place to work. The best interior designers in Delhi offer—</p>
+    <ul>
+      <li>Modern office layouts and workspaces that deliver high performance</li>
+      <li>Ideas For Creative Work Spaces to Stimulate Creativity</li>
+      <li>The reception and lobby make a good first impression</li>
+      <li>Conference room to smart technology configuration setup</li>
+      <li>Storage and organization solutions for a clutter-free environment</li>
+    </ul>
+
+    <h2 style="color: #34495e;">Best Interior Designers in Delhi for Commercial Spaces</h2>
+    <p>The best interior designers in Delhi focus on commercial interior design solutions, which drive customers toward businesses and build brand image recognition. Their services include—</p>
+    <ul>
+      <li>The best interior designers in Delhi create retail spaces through designs emphasizing product presentation and attracting customer interest</li>
+      <li>The best interior designers in Delhi transform restaurant spaces with lighting along themed decorative elements.</li>
+      <li>Hotel and hospitality interiors with luxury and comfort</li>
+      <li>Product showcases at showrooms become more effective when properly displayed</li>
+      <li>The modern features incorporated in contemporary co-working spaces</li>
+    </ul>
+
+    <h2 style="color: #34495e;">Best Interior Designers in Delhi and Their Collaboration with Builders</h2>
+    <p>Achieving superb internal spaces begins with developing a dependable structural basis. Stunning spaces are achieved through regular partnerships between the best builders and interior designers in Delhi. Such partnerships establish multiple essential aspects between architects and builders—</p>
+    <ul>
+      <li>Seamless coordination between construction and interior design</li>
+      <li>Information-based space optimization starts at planning time</li>
+      <li>High-quality finishes that enhance aesthetics</li>
+      <li>Cost-effective solutions for long-term durability</li>
+      <li>Faster project completion with expert management</li>
+    </ul>
+
+    <h2 style="color: #34495e;">Choosing the Best Interior Designers in Delhi</h2>
+    <p>Seeking top-quality interior designers in Delhi requires evaluation based on these selection criteria—</p>
+    <ul>
+      <li>A designer's career background, along with their achieved projects, showcase their competence</li>
+      <li>Client reviews and testimonials</li>
+      <li>Understanding of the latest design trends</li>
+      <li>The ability to modify designs according to individual choices remains amongst their capabilities.</li>
+      <li>Budget-friendly solutions with high-quality execution</li>
+    </ul>
+
+    <h2 style="color: #34495e;">Why Choose Cityspace?</h2>
+    <p>CitySpace Contracts maintains a position among the best interior designers in Delhi while attracting praise through its trailblazing designs and remarkable workmanship standards. The interior experts at their firm merge aesthetic appeal with comfort and user experience for residential, office, and commercial space development. CitySpace achieves customized modern solutions through its team of professional designers who transform preferences into reflective designs. Each feature of space transformation receives careful handling by experts who select materials and plan spaces to create flawless spaces.</p>
+
+    <p>Time-bound project delivery together with top-quality service distinguishes CitySpace. The company uses premium materials to extend product durability along with creating designs that keep their appearance stylish yet functional. The expert team at CitySpace checks off multiple projects with their deadline experience while upholding creativity and detailed work. Additionally, they offer cost-effective solutions, making high-end interior design accessible to a wide range of clients. Choosing CitySpace means getting a space that is not only visually appealing but also designed for comfort and long-term functionality.</p>
+
+    <h2 style="color: #34495e;">Conclusion</h2>
+    <p>Finding the best interior designers in Delhi is essential for creating beautiful, functional, and comfortable spaces. Whether you need home interiors, office designs, or commercial space transformations, choosing the right professionals makes all the difference. With expertise in various styles and modern innovations, they bring creativity and elegance to every project. Invest in top-quality interior design and transform your space with the best experts in Delhi!</p>
+
+  </div>
+`,
       date: "15/12/23",
       img: about8,
     },
     {
       id: 3,
-      title: "Learn more about the Best Electric Cars and Charging Time",
+      title: "Best Exterior Designers in Delhi—Designing Outdoor Spaces with Ease",
       text:
-        "In this post, we take a look at the best electric cars currently on the market today and how long it would take to charge each to its full capacity.",
+        "Strategic exterior planning creates a memorable initial response about properties that remain both distinctive and practical. The best exterior designer in Delhi, who develops durable outdoor environments through sophisticated materials, creative designs, and advanced construction methods. Master designers and architects deliver spaces that unite building design with exterior elements, which satisfy both architectural styles and individual client needs for residential properties, commercial complexes, and landscaped gardens.",
+        text2:`<div style="max-width: 900px; margin: 40px auto; background-color: white; padding: 30px;">
+
+    <h1 style=" color: #2c3e50;">Best Exterior Designers in Delhi—Designing Outdoor Spaces with Ease</h1>
+
+    <p>Strategic exterior planning creates a memorable initial response about properties that remain both distinctive and practical. The best exterior designer in Delhi, who develops durable outdoor environments through sophisticated materials, creative designs, and advanced construction methods. Master designers and architects deliver spaces that unite building design with exterior elements, which satisfy both architectural styles and individual client needs for residential properties, commercial complexes, and landscaped gardens.</p>
+
+    <p>Exterior planning ensures benefits for energy conservation along with safety measures and environmental sustainability. Outdoor design professionals work with green solutions and weather-resistant components as well as smart outdoor elements to offer high-functioning, comfortable outdoor areas. The best designers in Delhi pay attention to every component, from modern building surfaces to green landscape elements, to establish a welcoming, refined outdoor environment.</p>
+
+    <h2 style="color: #34495e;">Why Choose the Best Exterior Designers in Delhi?</h2>
+    <p>The correct planning of building exteriors leads to attractive looks and valuation improvements with better practical designs for properties. The best exterior designers in Delhi guarantee the creation every time of visually attractive results</p>
+    <ul>
+      <li>The designers create purposeful designs that complement building style</li>
+      <li>High-quality materials for durability and weather resistance</li>
+      <li>Sustainable and eco-friendly design solutions</li>
+      <li>Personal preferences and individual style guide exterior customization options.</li>
+      <li>External lighting elements connect harmoniously with landscaping installations</li>
+    </ul>
+
+    <h2 style="color: #34495e;">Services Offered by the Best Exterior Designers in Delhi</h2>
+
+    <h3 style="color: #2c3e50;">Facade Design for Residential and Commercial Buildings</h3>
+    <p>The best exterior designers in Delhi create innovative facade designs that blend elegance with modern trends. They construct eye-catching exteriors through their selection of premium glass, stone, and wood materials.</p>
+
+    <h3 style="color: #2c3e50;">Landscape and Garden Designing</h3>
+    <p>External spaces must contain practical design with an appealing appearance. The best exterior designers in Delhi offer landscaping services that include—</p>
+    <ul>
+      <li>Habitats containing properly arranged vegetation and horticulture elements</li>
+      <li>The walkways, together with driveways, should help complete the design scheme.</li>
+      <li>The exterior design incorporates fountains together with ponds.</li>
+      <li>Outdoor seating areas for relaxation and gatherings</li>
+    </ul>
+
+    <h3 style="color: #2c3e50;">Exterior Lighting Solutions</h3>
+    <p>The combination of lighting and safety levels improves space appearance. The best exterior designers in Delhi integrate</p>
+    <ul>
+      <li>LED lighting for energy efficiency</li>
+      <li>Accent lighting acts as a technique to display architectural elements better.</li>
+      <li>Exciting pathway lights serve security functions and enable easy access.</li>
+    </ul>
+
+    <h3 style="color: #2c3e50;">Custom Outdoor Structures</h3>
+    <p>The best exterior designers in Delhi create outdoor areas that seamlessly mix convenience and attractiveness through their design of pergolas, patios, gazebos, and terrace gardens.</p>
+
+    <h2 style="color: #34495e;">How Do the Best Exterior Designers in Delhi Work?</h2>
+    <p>Professional designers provide a smooth design process to their clients. The process includes—</p>
+    <ul>
+      <li>Consultation and Requirement Analysis—The designer needs to understand what the client envisions as well as their specific preferences.</li>
+      <li>Site Inspection and Planning—Design feasibility assessments are conducted on the available space.</li>
+      <li>Design Concept and Approval—The designer provides design mock-ups to clients so they can inspect and authorize them.</li>
+      <li>Material Selection and Execution—The implementation of precise design requires selecting top-quality materials.</li>
+      <li>Final Touches and Quality Check—Aligning every facet exactly as the client desires.</li>
+    </ul>
+
+    <h2 style="color: #34495e;">Incorporating Modern Trends with the Best Exterior Designers in Delhi</h2>
+    <p>The best exterior designers in Delhi keep their practice relevant and blended—</p>
+    <ul>
+      <li>Minimalist and sleek designs for modern aesthetics</li>
+      <li>Sustainable materials to promote eco-friendliness</li>
+      <li>The implementation of smart technology enables automated control of lighting systems with irrigation functions.</li>
+      <li>Fusion designs unite architectural elements from both the past and present.</li>
+    </ul>
+
+    <h2 style="color: #34495e;">Why Does Exterior Design Matter for Residential and Commercial Properties?</h2>
+    <p>The exterior design of a property needs proper planning for overall success.</p>
+    <ul>
+      <li>The first encounter with a property receives a powerful transformation</li>
+      <li>Increasing property value in real estate markets</li>
+      <li>Exterior regions need enhancement to work better for leisure activities and professional pursuits.</li>
+      <li>The space should welcome visitors and clients at the entrance.</li>
+    </ul>
+
+    <h2 style="color: #34495e;">Choosing the Right Exterior Designers in Delhi</h2>
+    <p>Selecting the best exterior designers in Delhi demands evaluation of the following factors—</p>
+    <ul>
+      <li>Previous projects, together with experience along portfolio demonstration</li>
+      <li>Client reviews and testimonials</li>
+      <li>The use of advanced sustainable design principles constitutes one of their core strategies</li>
+      <li>The designer team has the skill to adapt their designs according to individual project specifications.</li>
+      <li>Transparent pricing and project timeline commitment</li>
+    </ul>
+
+    <h2 style="color: #34495e;">Why Choose CitySpace for Exterior Designing?</h2>
+    <p>CitySpace operates as the best exterior designer in Delhi, delivering premium solutions for residential and commercial buildings. Their staff delivers expertise in facade work and landscape design to create functional spaces that also maintain visual appeal. The skilled professionals at their organization use their creative skills to convert ordinary exteriors into breathtaking architectural works. They design buildings with a modern style through creations that combine both beautiful looks and solid construction. Every project requires detailed attention, which enables the combination of durability with beauty in a perfect, seamless manner.</p>
+
+    <p>What sets CitySpace apart is its focus on quality, durability, and timely execution.</p>
+    <ul>
+      <li>Design team members keep track of fresh design developments to build contemporary and trendy exterior designs.</li>
+      <li>Modern techniques, together with sophisticated technology, work to combine attractive design with operational effectiveness.</li>
+      <li>The cost-efficient solutions these providers deliver preserve quality standards at all times.</li>
+      <li>Through cohesive project management, all operational aspects flow without interruption from initial planning stages until final execution.</li>
+      <li>A strong portfolio of completed projects reflects expertise and reliability in the industry.</li>
+    </ul>
+
+    <h2 style="color: #34495e;">Conclusion</h2>
+    <p>The best exterior designer in Delhi makes a big task of changing outdoor spaces to visually appealing & functional areas. From homes, offices, or commercial establishments, professional exterior designers create creativity with the right amount of innovation and expertise for each project. By going for the professionally trained designers such as CitySpace, you will have a property that not only differentiates but also creates long-term value. Grab the decision and beautify exteriors today!</p>
+  </div>
+`,
       date: "05/09/24",
       img: banner4,
     },
@@ -962,7 +1217,7 @@ export const serviceData = {
 export const contactBanner = {
   title: "Contact Us",
   para:
-    "lorem Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus",
+    "Designing Spaces With Expert Building and Interior Designs. Experience The Best Builders in Delhi!",
   slug: "contact-us",
   img: banner,
 };
@@ -973,32 +1228,32 @@ export const contactData = {
     {
       id: 1,
       text:
-        "We always work to give the best to our clients. Our seasoned professionals have years of experience in immigration consultancy.",
+        "Each project receives unique designs made of premium materials at our company to create modern spaces with lasting elegance.",
     },
     {
       id: 2,
       text:
-        "We always work to give the best to our clients. Our seasoned professionals have years of experience in immigration consultancy.",
+        "Our experienced team has multiple years of expertise in both home designs and construction operations to deliver projects that fulfill all high criteria.",
     },
     {
       id: 3,
       text:
-        "We always work to give the best to our clients. Our seasoned professionals have years of experience in immigration consultancy.",
+        "We conduct detailed client interaction, which allows us to transform vision into personalized designs compatible with their lifestyle demands.",
     },
     {
       id: 4,
       text:
-        "We always work to give the best to our clients. Our seasoned professionals have years of experience in immigration consultancy.",
+        "We employ innovative technology along with strategic planning to create living environments that function perfectly while being beautiful and creating comfort.",
     },
     {
       id: 5,
       text:
-        "We always work to give the best to our clients. Our seasoned professionals have years of experience in immigration consultancy.",
+        "We take full responsibility for planning along with execution to deliver an entirely smooth design and building process that requires no stress and has perfect management.",
     },
     {
       id: 6,
       text:
-        "We always work to give the best to our clients. Our seasoned professionals have years of experience in immigration consultancy.",
+        "We deliver impressive project outcomes through creative designs with professionalism and strong dedication to building stunning projects that stand out from others in quality and detailed craftsmanship.",
     },
   ],
   details: [

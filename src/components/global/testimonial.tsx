@@ -69,7 +69,7 @@ export default function Testimonials() {
 
       <Swiper
         {...swiperOptions}
-        className={`mySwiper w-full  mx-auto p-5  ${uniqueId}`}
+        className={`mySwiper w-full  mx-auto p-5 ${uniqueId}`}
       >
         {" "}
         {testimonialData?.testimonials?.map((cards: any) => (
