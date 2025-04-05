@@ -44,7 +44,7 @@ export default function Banner({title, para, img, slug}:any) {
                    <motion.p className="md:text-lg text-sm max-w-2xl"> {para}
                    </motion.p>
 
-                   <motion.p className="py-3 w-max mt-7 bg-[#00000046] backdrop-blur-sm text-sm rounded-3xl px-6"><Link href={"/"}>Home </Link>&nbsp;/ &nbsp; <Link className="text-yellow3 hover:text-brown2 font-bold" href={"#"}>{slug}</Link>
+                   <motion.p className="py-3 w-max mt-7 bg-[#00000046] backdrop-blur-sm text-sm rounded-3xl px-6"><Link href={"/"}>Home </Link>&nbsp;/ &nbsp; <Link className="text-yellow3 hover:text-brown2 font-bold" href={"#"}>{slug.slice(0,22)}...</Link>
                    </motion.p>
                    
                   </motion.div>

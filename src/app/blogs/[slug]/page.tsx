@@ -44,7 +44,7 @@ const Page = ({ params }: Props) => {
 </div>
 
 <div className='md:w-[27%] w-full md:sticky top-10 space-y-5 sm:space-y-12 h-full'>
-  <Aside title={`${singleBlog.title.slice(0, 34)}...`}/>
+  <Aside title={`${singleBlog.title.slice(0, 28)}...`}/>
 </div>
 </div>
     </>
