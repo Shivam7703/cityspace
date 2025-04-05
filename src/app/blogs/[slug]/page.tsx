@@ -29,7 +29,7 @@ const Page = ({ params }: Props) => {
         img=""
         title={`${singleBlog.title.slice(0, 20)}...`}
         para=""
-        slug={`services / ${singleBlog.title.toLowerCase()}`}
+        slug={`blogs / ${singleBlog.title.toLowerCase()}`}
       />
 
      
