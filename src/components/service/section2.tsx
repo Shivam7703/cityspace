@@ -1,22 +1,20 @@
 import React from 'react';
+import { FcApproval } from 'react-icons/fc';
 
 export default function Servicesec2({data}:any) {
   return (
-    
     <>
-                <h2 className="text-black text-3xl font-medium my-8 md:text-5xl">
+  <h2 className="text-black text-3xl font-medium my-8 md:text-5xl">
 How We Work
 </h2>
-              
-
             <div className=" gap-y-5 justify-between flex flex-wrap items-stretch w-full">
         {data.map((card: any) => (
           <div
             key={card.id}
             className="w-[48.5%] border border-zinc-300 sm:p-8 p-4 rounded-xl group text-black "
           >
-            <div className="text-5xl md:text-6xl duration-200 group-hover:-translate-y-4">
-              {card?.icon}
+            <div className="text-4xl md:text-5xl duration-200 group-hover:-translate-y-4">
+            <FcApproval />
             </div>
             <h2 className="mt-3 md:mt-5 text-lg md:text-2xl duration-200 font-medium  group-hover:text-brown2 ">
               {card?.heading}

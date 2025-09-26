@@ -12,16 +12,29 @@ import {
   logo2,
   about8,
   about7,
+  pro116,
+  man,
+  cl2,
+  cl3,
+  cl4,
 } from "@/assets";
 import { AiFillOpenAI } from "react-icons/ai";
-import { FcHome, FcServices } from "react-icons/fc";
+import { BsFillPatchCheckFill } from "react-icons/bs";
+import {
+  FcAcceptDatabase,
+  FcFinePrint,
+  FcHome,
+  FcServices,
+} from "react-icons/fc";
 import {
   GiAbstract052,
   GiAqueduct,
   GiDiceTwentyFacesTwenty,
   GiOilPump,
+  GiTakeMyMoney,
 } from "react-icons/gi";
 import { GrLocation } from "react-icons/gr";
+import { IoDiamondSharp } from "react-icons/io5";
 import { LuPhone } from "react-icons/lu";
 
 import { RiMailSendLine, RiSofaFill } from "react-icons/ri";
@@ -35,23 +48,19 @@ export const navItemsArray = [
     label: "Services",
     href: "/services",
     subNav: [
-      { id: 1, label: "Interior Design", href: "/services/interior design" },
+      { id: 1, label: "Interior Design", href: "/services/interior-design" },
       { id: 2, label: "Architecture", href: "/services/architecture" },
-      {
-        id: 3,
-        label: "Property Sale",
-        href: "/services/property sale",
-      },
+      { id: 3, label: "Property Sale", href: "/services/property-sale" },
       {
         id: 4,
         label: "Building Renovation",
-        href: "/services/building renovation",
+        href: "/services/building-renovation",
       },
-      { id: 5, label: "Exterior Design", href: "/services/exterior design" },
+      { id: 5, label: "Exterior Design", href: "/services/exterior-design" },
       {
         id: 6,
         label: "Property Purchase",
-        href: "/services/property purchase",
+        href: "/services/property-purchase",
       },
     ],
   },
@@ -65,7 +74,7 @@ export const navItemsArray = [
 export const sliderContent = [
   {
     id: 1,
-    img: banner,
+    img: banner4,
     welcome: "BEST BUILDERS IN DELHI",
     title: "Designing Spaces That Combine Beauty & Purpose",
     para:
@@ -75,7 +84,7 @@ export const sliderContent = [
   },
   {
     id: 2,
-    img: banner2,
+    img: banner,
     welcome: "INTERIOR DESIGNERS IN DELHI",
     title: "Creating Interiors That Feel Like Home",
     para: "Handpicked elements that make your interior shine with charm.",
@@ -87,7 +96,7 @@ export const sliderContent = [
 // section2
 export const aboutdata = {
   img2: banner,
-  img: about,
+  img:man,
 
   title1: "WHO ARE WE",
   title2: "We Are The Best Builder in Delhi",
@@ -96,7 +105,7 @@ export const aboutdata = {
   vision: [
     {
       id: 1,
-      icon: <RiSofaFill />,
+      icon: <BsFillPatchCheckFill />,
 
       heading: "Best Quality",
       text:
@@ -104,7 +113,7 @@ export const aboutdata = {
     },
     {
       id: 2,
-      icon: <RiSofaFill />,
+      icon: <BsFillPatchCheckFill />,
 
       heading: "Timely Delivery",
       text:
@@ -112,7 +121,7 @@ export const aboutdata = {
     },
     {
       id: 3,
-      icon: <RiSofaFill />,
+      icon: <BsFillPatchCheckFill />,
 
       heading: "Exceeding the Expectations",
       text: "Our customers' satisfaction remains our highest priority.",
@@ -164,25 +173,32 @@ export const countDown = [
     id: 1,
     para: "Projects Completed Successfully",
     title: "Projects Completed",
-    Value: "100",
+    Value: "50",
+    value2:"+"
   },
   {
     id: 2,
     para: "Trusted and Satisfied Clients",
     title: "Happy Customers",
-    Value: "1200",
+    Value: "150",
+    value2:"+"
+
   },
   {
     id: 3,
-    para: "Won Excellence Awards in Industry",
-    title: "Awards Received",
-    Value: "600",
+    para: "High Success Rate with Clients",
+    title: "Success Rate",
+    Value: "100",
+    value2:"%"
+
   },
   {
     id: 4,
     para: "Expertise Built for Years",
     title: "Years of Experience",
     Value: "27",
+    value2:"+"
+
   },
 ];
 
@@ -193,14 +209,14 @@ export const howwork = {
   cards: [
     {
       id: 1,
-      icon: <FcServices />,
+      icon: <FcAcceptDatabase />,
       heading: "Understanding Concept",
       text:
         "We confirm your design approach by discussing your goals and desired outcomes to create the perfect final result.",
     },
     {
       id: 2,
-      icon: <FcHome />,
+      icon: <FcFinePrint />,
       heading: "Site and survey visit",
       text:
         "We conduct thorough site evaluations and surveys to ensure precise planning and material selection.",
@@ -244,28 +260,28 @@ export const ourService = {
     {
       id: 3,
       icon: <GiDiceTwentyFacesTwenty />,
-      heading:"Exterior Design",
+      heading: "Exterior Design",
       text:
         "Our work includes outdoor building improvements that transform your structure into an attractive structure.",
     },
     {
       id: 4,
       icon: <GiOilPump />,
-      heading:"Building Renovation",
+      heading: "Building Renovation",
       text:
         "Our company performs space construction repairs to create rejuvenating looks that maintain comfortable use features.",
     },
     {
       id: 5,
-      icon: <GiAqueduct />,
-      heading:"Property Sale",
+      icon: <IoDiamondSharp />,
+      heading: "Property Sale",
       text:
         "Our organization provides expert assistance to help you find quick property sales at competitive market prices along with dependable service.",
     },
     {
       id: 6,
-      icon: <GiDiceTwentyFacesTwenty />,
-      heading:"Property Purchase",
+      icon: <GiTakeMyMoney />,
+      heading: "Property Purchase",
       text:
         "We assist in finding and buying the perfect property that fits your needs, budget, and preferences.",
     },
@@ -313,21 +329,21 @@ export const testimonialData = {
       title: "Shivam Goyal",
       text:
         "The project finished on time without causing any problems for us. The interior design elements present a beautiful appearance. The finished design of Cityspace transformed our house into a perfect residence. They are the best interior designers in Delhi. Highly recommended for quality work! ",
-      img: cl1,
+      img: cl2,
     },
     {
       id: 3,
       title: "Sageer Ansari",
       text:
         "Through their work, Cityspace created elegant, functional interior designs for our house. The team members demonstrated professionalism throughout while giving full attention to all specified details. We have achieved a comfortable area that welcomes everyone. They truly are the best builders in Delhi.",
-      img: cl1,
+      img: cl3,
     },
     {
       id: 3,
       title: "Prashant",
       text:
         "The construction process, along with design delivery, was executed with excellence by Cityspace. Our house now combines spaciousness and modern design characteristics, which perfectly meet our family needs. Great experience with a highly skilled team! Truly the best builders in Delhi.",
-      img: cl1,
+      img: cl4,
     },
   ],
 };
@@ -341,42 +357,42 @@ export const projectData = {
   projects: [
     {
       id: 1,
-      title: "Haven & Harmony",
-      text: "Tech Innovations Inc.",
+      title: "R86, GK2",
+      text: "City Space Construction",
       img: banner,
     },
 
     {
       id: 2,
       title: "Haven & Harmony",
-      text: "Tech Innovations Inc.",
+      text: "City Space Construction",
       img: about8,
     },
 
     {
       id: 3,
       title: "Haven & Harmony",
-      text: "Tech Innovations Inc.",
+      text: "City Space Construction",
       img: about4,
     },
 
     {
       id: 4,
       title: "Haven & Harmony",
-      text: "Tech Innovations Inc.",
+      text: "City Space Construction",
       img: banner2,
     },
     {
       id: 5,
       title: "Haven & Harmony",
-      text: "Tech Innovations Inc.",
+      text: "City Space Construction",
       img: banner,
     },
 
     {
       id: 6,
       title: "Haven & Harmony",
-      text: "Tech Innovations Inc.",
+      text: "City Space Construction",
       img: about5,
     },
   ],
@@ -392,8 +408,7 @@ export const blogData = {
       title: "The Best Builders in Delhi-Building Comfort For Your Living",
       text:
         "People strive for their dreams through the selection of top builders who operate well. Cityspace, the best builders in Delhi, successfully developing any quality property or space requires selecting an appropriate builder who does matters. People face difficulties when choosing a builder from the many available choices. Certain builders gain distinction because they combine their superior workmanship with revolutionary designs and their ability to finish projects on schedule.",
-        text2:
-        `<div style="max-width: 900px; margin: 40px auto; padding: 30px; background-color: #fff;">
+      text2: `<div style="max-width: 900px; margin: 40px auto; padding: 30px; background-color: #fff;">
 
     <h1 style=" color: #2c3e50;">The Best Builders in Delhi - Building Comfort For Your Living</h1>
 
@@ -477,10 +492,10 @@ export const blogData = {
     },
     {
       id: 2,
-      title: "Best Interior Designers in Delhi—Designing Beautiful Spaces",
+      title: "Best Interior Designers in Delhi-Designing Beautiful Spaces",
       text:
         "Delhi's Top Interior Designer What you need is the service that the best interior designers in Delhi provide to create a magical and useful space. The right design is the one that makes your home, office, or commercial space feel better to live in, look at, and work in. Healthy and diverse options for designers can be overwhelming as well. Minimalism aside, experienced professionals do make quality work, new designs, and on-time delivery.",
-        text2:` <div style="max-width: 900px; margin: 40px auto; background-color: white; padding: 30px;">
+      text2: ` <div style="max-width: 900px; margin: 40px auto; background-color: white; padding: 30px;">
 
     <h1 style=" color: #2c3e50;">Best Interior Designers in Delhi—Designing Beautiful Spaces</h1>
 
@@ -563,10 +578,11 @@ export const blogData = {
     },
     {
       id: 3,
-      title: "Best Exterior Designers in Delhi—Designing Outdoor Spaces with Ease",
+      title:
+        "Best Exterior Designers in Delhi-Designing Outdoor Spaces with Ease",
       text:
         "Strategic exterior planning creates a memorable initial response about properties that remain both distinctive and practical. The best exterior designer in Delhi, who develops durable outdoor environments through sophisticated materials, creative designs, and advanced construction methods. Master designers and architects deliver spaces that unite building design with exterior elements, which satisfy both architectural styles and individual client needs for residential properties, commercial complexes, and landscaped gardens.",
-        text2:`<div style="max-width: 900px; margin: 40px auto; background-color: white; padding: 30px;">
+      text2: `<div style="max-width: 900px; margin: 40px auto; background-color: white; padding: 30px;">
 
     <h1 style=" color: #2c3e50;">Best Exterior Designers in Delhi—Designing Outdoor Spaces with Ease</h1>
 
@@ -672,7 +688,7 @@ export const blogData = {
 export const footer = {
   logo: logo2,
   text:
-    "lorem At AI Ecofuels, we are revolutionizing the biofuel industry and transforming the lives",
+    "Cityspace Contracts delivers quality excellence, transforming properties into luxurious family homes.",
 
   socials: {
     facebook: "https://www.facebook.com/",
@@ -683,24 +699,33 @@ export const footer = {
   },
   copyrightText: "Copyrights © 2024 . Designed and Manage by ",
   list1: {
-    title: "Products",
+    title: "Quick Links",
     links: [
-      { id: 1, label: "About", href: "/about" },
+      { id: 1, label: "About", href: "/about-us" },
       { id: 2, label: "Services & Techs", href: "/services" },
-      { id: 3, label: "Sustainability", href: "sustainability" },
+      { id: 3, label: "Projects", href: "/projects" },
       { id: 4, label: "Blogs", href: "/blogs" },
       { id: 5, label: "Contact Us", href: "/contact-us" },
     ],
   },
 
   list2: {
-    title: "Main Menus",
+    title: "Services",
     links: [
-      { id: 1, label: "About", href: "/about" },
-      { id: 2, label: "Services & Techs", href: "/services" },
-      { id: 3, label: "Sustainability", href: "/sustainability" },
-      { id: 4, label: "Blogs", href: "/blogs" },
-      { id: 5, label: "Contact Us", href: "/contact-us" },
+      { id: 1, label: "Interior Design", href: "/services/interior-design" },
+      { id: 2, label: "Architecture", href: "/services/architecture" },
+      { id: 3, label: "Property Sale", href: "/services/property-sale" },
+      {
+        id: 4,
+        label: "Building Renovation",
+        href: "/services/building-renovation",
+      },
+      { id: 5, label: "Exterior Design", href: "/services/exterior-design" },
+      {
+        id: 6,
+        label: "Property Purchase",
+        href: "/services/property-purchase",
+      },
     ],
   },
 };
@@ -728,8 +753,7 @@ export const aboutdata2 = {
       icon: <RiSofaFill />,
 
       heading: "Superior Quality",
-      text:
-        "We build structures that provide long-lasting dependability",
+      text: "We build structures that provide long-lasting dependability",
     },
     {
       id: 2,
@@ -806,28 +830,24 @@ export const serviceData = {
       how_we_work: [
         {
           id: 1,
-          icon: <FcServices />,
           heading: "Consultation",
           para:
             "We need to know how your space type matches with your functional requirements and aesthetic aspirations for the space.",
         },
         {
           id: 2,
-          icon: <FcServices />,
           heading: "Concept Creation",
           para:
             "Professionals create visual schemes and design boards with color-mix selections.",
         },
         {
           id: 3,
-          icon: <FcServices />,
           heading: "Execution",
           para:
             "The design comes to existence because of expert craftsmen who dedicate their skills.",
         },
         {
           id: 4,
-          icon: <FcServices />,
           heading: "Final Walkthrough",
           para:
             "Each element in the design process directly follows your predetermined expectations.",
@@ -873,31 +893,27 @@ export const serviceData = {
         "We design innovative, functional, and timeless structures for every unique need.",
       description:
         "We focus on efficient, innovative designs with durability as our primary goal in architectural services. Our company, the best architecture in Delhi, supervises the entire development process, beginning with blueprint design and ending with construction monitoring for residential homes and commercial buildings. Every design by our team requires us to balance style with usability against environmental conservation objectives. We prioritize mechanical safety compliance standards during our work to deliver functional spaces that also present visual appeal.",
-      img: banner,
+      img: banner2,
       how_we_work: [
         {
           id: 1,
-          icon: <FcServices />,
           heading: "Planning",
           para:
             "The site undergoes analysis while our team develops the first draft layouts.",
         },
         {
           id: 2,
-          icon: <FcServices />,
           heading: "Design Development",
           para: "Creating blueprints and 3D models.",
         },
         {
           id: 3,
-          icon: <FcServices />,
           heading: "Approvals",
           para:
             "Our team verifies that every design upholds legal conduct and meets safety standards.",
         },
         {
           id: 4,
-          icon: <FcServices />,
           heading: "Supervision",
           para:
             "We monitor the implementation steps to maintain both exactness and superior quality of work.",
@@ -943,29 +959,25 @@ export const serviceData = {
         "Increase your property's charm with stunning, durable, and unique exteriors.",
       description:
         "We, the best exterior designers in Delhi, build exterior designs that combine spectacular looks with exceptional durability to enhance property aesthetics. Your preferences guide our team, allowing them to design solutions that perfectly blend with environmental elements. Each detail, including landscape design and materials, stands at the center of our attention for durability combined with style. Our professional mission is to improve the exterior beauty of your property through an external design that matches your personality and creates a welcoming environment.",
-      img: banner,
+      img: banner3,
       how_we_work: [
         {
           id: 1,
-          icon: <FcServices />,
           heading: "Consultation",
           para: "We discuss your desired exterior appearance.",
         },
         {
           id: 2,
-          icon: <FcServices />,
           heading: "Design Concepts",
           para: "We provide 3D renders and material suggestions.",
         },
         {
           id: 3,
-          icon: <FcServices />,
           heading: "Implementation",
           para: "The implementation includes durable and appealing materials.",
         },
         {
           id: 4,
-          icon: <FcServices />,
           heading: "Final Inspection",
           para: "Ensuring the exterior meets expectations.",
         },
@@ -1010,32 +1022,28 @@ export const serviceData = {
         "We convert old spaces into modern, functional, and stylish ones effortlessly.",
       description:
         "Our renovation projects transform whatever space you have by providing it with fresh vitality through both partial and full-scale remodels. Our evaluation of the building locates all necessary improvement zones, whether they focus on structural elements or visual aspects. Our team develops complete renovation programming that satisfies your requirements regarding design preferences, together with schedule length and cost needs. The company applies quality materials and expert craftsmanship to produce spaces that harmonize modern functionality with lasting durability and original architecture.",
-      img: banner,
+      img: banner4,
       how_we_work: [
         {
           id: 1,
-          icon: <FcServices />,
           heading: "Inspection",
           para:
             "The first step involves evaluating present conditions together with identifying regions that require development.",
         },
         {
           id: 2,
-          icon: <FcServices />,
           heading: "Planning",
           para:
             "We develop renovation roadmaps that include both time details and spending limits for the project.",
         },
         {
           id: 3,
-          icon: <FcServices />,
           heading: "Execution",
           para:
             "Moving things forward with both expert personnel and quality materials.",
         },
         {
           id: 4,
-          icon: <FcServices />,
           heading: "Finishing",
           para:
             "The team takes responsibility to present a fully finished, renovated space.",
@@ -1080,31 +1088,27 @@ export const serviceData = {
       banner: "Sell properties easily with trusted support and guidance.",
       description:
         "Our professional guidance makes the property-selling process flow easily for you. Our initial step involves inspecting the property value by examining both market changes and its distinctive characteristics. Our team uses online advertising and qualifies audience contact to discover suitable purchasers. Our team helps you secure optimal prices through price negotiation services. Our team takes care of every requirement and formal procedure to deliver you a convenient and clear, plus stress-free, sales process.",
-      img: banner,
+      img: about4,
       how_we_work: [
         {
           id: 1,
-          icon: <FcServices />,
           heading: "Valuation",
           para: "The market trend analysis determines the property's worth.",
         },
         {
           id: 2,
-          icon: <FcServices />,
           heading: "Marketing",
           para:
             "Different promotional channels are used to market this property.",
         },
         {
           id: 3,
-          icon: <FcServices />,
           heading: "Negotiation",
           para:
             "Our service provides you with the most advantageous terms for your property sale.",
         },
         {
           id: 4,
-          icon: <FcServices />,
           heading: "Closure",
           para:
             "The transaction benefits from our organization and management of essential paperwork.",
@@ -1149,31 +1153,27 @@ export const serviceData = {
       banner: "Find your dream property with ease and expert guidance today.",
       description:
         "Our team helps property buyers through a seamless and pleasant journey by delivering personalized market information that matches your unique needs. Our team supports clients from start to finish, whether they purchase their dream residence or want to achieve an intelligent property investment. The team provides continuous support, from helping you understand your choices to budgeting, and takes part in every stage of your purchasing journey.",
-      img: banner,
+      img: about5,
       how_we_work: [
         {
           id: 1,
-          icon: <FcServices />,
           heading: "Requirement Analysis",
           para:
             "You need to explain your property needs while sharing your spending plan and specific requirements.",
         },
         {
           id: 2,
-          icon: <FcServices />,
           heading: "Property Search",
           para:
             "You need to select possibilities that comply with your specification requirements.",
         },
         {
           id: 3,
-          icon: <FcServices />,
           heading: "Site Visits",
           para: "You will schedule tours for properties that you select.",
         },
         {
           id: 4,
-          icon: <FcServices />,
           heading: "Deal Finalization",
           para: "Helping with negotiations and paperwork.",
         },
@@ -1261,28 +1261,30 @@ export const contactData = {
       id: 1,
       icon: <LuPhone />,
       para: "Contact No.",
-      text: "+91 9876543210",
-      text2: "+91 9123456780",
-      slug1: "#",
-      slug2: "#",
+      text: "+91 9667622285",
+      text2: "+91 9810110499",
+      slug1: "tel:+919667622285",
+      slug2: "tel:+919810110499",
     },
     {
       id: 2,
       icon: <RiMailSendLine />,
       para: "E-mail Address",
-      text: "hello@cityspace.com",
-      text2: "info@cityspace.com",
-      slug1: "#",
+      text: "info@cityspace.construction",
+      text2: "",
+      slug1: "mailto:info@cityspace.construction",
       slug2: "#",
     },
     {
       id: 3,
       icon: <GrLocation />,
       para: "Office Address",
-      text: "5609 E Sprague Ave, Spokane ",
-      text2: "Valley, WA 99212, USA",
-      slug1: "#",
-      slug2: "#",
+      text: "2nd Floor, M Block Market, Greater Kailash 2, M 32,",
+      text2: " W Block Rd, New Delhi, Delhi 110048",
+      slug1:
+        "https://www.google.com/maps/place/Cityspace/@28.5330789,77.2413416,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce1905d089649:0x1b43338513750efe!8m2!3d28.5330789!4d77.2413416!16s%2Fg%2F11wxqn0h78?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoASAFQAw%3D%3D",
+      slug2:
+        "https://www.google.com/maps/place/Cityspace/@28.5330789,77.2413416,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce1905d089649:0x1b43338513750efe!8m2!3d28.5330789!4d77.2413416!16s%2Fg%2F11wxqn0h78?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoASAFQAw%3D%3D",
     },
   ],
 };

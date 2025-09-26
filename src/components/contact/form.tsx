@@ -28,33 +28,33 @@ function Contactform() {
           Contact Us Today!
           </h2>            
          <div className='w-full border  mt-3 mb-6'></div>
-          <form className="flex flex-wrap gap-y-6 py-3 text-white justify-between">
+          <form className="flex flex-wrap gap-y-6 py-3 text-white justify-between" method='POST' action={"/contact.php"}>
             <input
-              type="text"
+              type="text" name='name'
               placeholder="Your Name"
               className="w-full py-3 placeholder:text-zinc-300 px-4 bg-[#ffffff08] backdrop-blur-sm sm:w-[48%] "
               required
             />
             <input
-              type="email"
+              type="email" name='email'
               placeholder="Your Email"
               className="w-full py-3 placeholder:text-zinc-300 px-4 bg-[#ffffff08] backdrop-blur-sm sm:w-[48%] "
               required
             />
             <input
-              type="phone"
+              type="phone" name='phone'
               placeholder="Your Contact No."
               className="w-full placeholder:text-zinc-300 py-3 px-4 bg-[#ffffff08] backdrop-blur-sm sm:w-[48%] "
               required
             />
             <input
-              type="text"
+              type="text" name='subject'
               placeholder="Subject"
               className="w-full py-3 placeholder:text-zinc-300 px-4 bg-[#ffffff08] backdrop-blur-sm sm:w-[48%] "
               required
             />
             <textarea
-              placeholder="Your Message"
+              placeholder="Your Message" name='message'
               className="w-full py-3 placeholder:text-zinc-300 px-4 bg-[#ffffff08] backdrop-blur-sm  h-28 md:h-32"
               required
             ></textarea>

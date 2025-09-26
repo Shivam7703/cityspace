@@ -140,7 +140,7 @@ export default Header;
 
 function RightSide(onTop: any) {
   return (
-    <Link href={"/"} className="w-max">
+    <a href={"/"} className="w-max">
            
     <div className="flex  gap-2 border p-2 text-black hover:text-white font-medium  group relative bg-white overflow-hidden items-center flex-row h-full">
       <p className="ml-3 mr-1 z-20">Download &nbsp;Brochure</p>
@@ -148,7 +148,7 @@ function RightSide(onTop: any) {
 
       <div className="group-hover:w-full duration-300 h-full bg-brown2 absolute z-10 w-0 top-0 right-0"></div>
     </div>
-</Link>
+</a>
 
 
     

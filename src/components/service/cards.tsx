@@ -83,7 +83,9 @@ const ProCard = ({ pro }:any) => (
                   <p className=" mt-3 group-hover:mb-6 duration-300 max-w-[400px]">{pro.banner}</p>
              
               
-                <Link href={`services/${pro.title}`} className="opacity-0  transition-all duration-300 group-hover:opacity-100 flex items-center gap-x-2 group/link">
+                <Link 
+href={`/services/${pro.title.replace(/\s+/g, '-').toLowerCase()}`}
+className="opacity-0  transition-all duration-300 group-hover:opacity-100 flex items-center gap-x-2 group/link">
               <p className="text-sm font-semibold ">LEARN MORE</p> 
               <BsArrowUpRightCircleFill className="text-brown2 rounded-full text-xl bg-white group-hover/link:rotate-45 duration-300" />
             </Link>

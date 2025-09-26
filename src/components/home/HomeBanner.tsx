@@ -106,7 +106,7 @@ function HomeBannerCard({
             {title} 
           </h1>
           <p className="-mt-1 !mb-4 md:text-xl text-zinc-100 font-medium ">{para}</p>
-          <Link href={"/"} className="w-max">
+          <Link href={"/contact-us"} className="w-max">
            
                  <div className="flex  gap-2 p-2 text-black hover:text-white font-bold rounded-[29px] group relative bg-white overflow-hidden items-center flex-row h-full">
                    <p className="ml-5 mr-3 z-20">{btntext}</p>

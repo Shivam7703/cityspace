@@ -41,7 +41,10 @@ export default function ServiceSlider({data}:any) {
             </h2>
             <p className="text-sm md:text-base font-medium md:mb-9 mb-6 mt-3 md:mt-6 text-zinc-500">{card?.text}</p>
 
-            <Link href={`services/${card?.heading}`} className="flex items-center gap-x-2 group/link">
+            <Link
+  href={`services/${card?.heading.replace(/\s+/g, '-').toLowerCase()}`}
+  className="flex items-center gap-x-2 group/link"
+>
               <p className="text-sm sm:font-extrabold">LEARN MORE</p> 
               <BsArrowUpRightCircleFill className="text-brown2 rounded-full text-xl bg-white group-hover/link:rotate-45 duration-300" />
             </Link>

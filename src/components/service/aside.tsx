@@ -1,4 +1,4 @@
-import { banner, banner2 } from "@/assets";
+import { banner, banner2, banner3, banner4 } from "@/assets";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
@@ -16,7 +16,9 @@ function Aside({title}:{title :string}) {
     key={service?.id}
     className={service?.heading === title ? "text-brown2" : "hover:text-brown2 text-zinc-700"}
   >
-    <Link href={`/services/${encodeURIComponent(service?.heading || '')}`}>{service?.heading}</Link>
+    <Link 
+  href={`/services/${service?.heading.replace(/\s+/g, '-').toLowerCase()}`}
+  >{service?.heading}</Link>
   </li>
 ))}
 </ul>
@@ -45,7 +47,7 @@ function Aside({title}:{title :string}) {
                  <div   className="lg:h-[520px]  relative md:h-96 h-72 w-full group rounded-3xl overflow-hidden"
                  >
                    <Image
-                     src={banner2}
+                     src={banner4}
                      alt=""
                      className="w-full h-full object-cover absolute z-10 top-0 left-0 group-hover:scale-110 duration-300"
                    />

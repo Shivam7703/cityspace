@@ -27,8 +27,8 @@ function AboutSection({isBtn ,data}: { isBtn: boolean , data:any}) {
 
         <ul className="space-y-4 md:space-y-7 md:!mb-8 !mb-4">
           {data?.vision?.map((data :any) => (
-            <li key={data.id} className="flex items-center gap-x-4">
-              <div className="text-4xl text-brown2">{data?.icon}</div>
+            <li key={data.id} className="flex  gap-x-4">
+              <div className="text-3xl mt-1 text-brown2">{data?.icon}</div>
               <div>
                 <h5 className="font2 font-medium mb-2 md:text-2xl text-xl  text-black">
                   {data.heading}
@@ -64,7 +64,7 @@ function AboutSection({isBtn ,data}: { isBtn: boolean , data:any}) {
           <Image
             src={data?.img}
             alt="About"
-            className="animate-bounce3 rounded-2xl duration-300 absolute z-20 bottom-[15%] shadow-lg left-0 w-[40%] h-[60%] border-8 border-white object-cover "
+            className=" rounded-2xl duration-300 absolute z-20 bottom-0 w-max -left-3 md:-left-10  h-[80%] object-contain "
           />
         )}
       </div>

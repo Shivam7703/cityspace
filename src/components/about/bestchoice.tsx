@@ -16,7 +16,7 @@ function Bestchoice() {
           pauseOnHover={true}
        
         >
-         <h2 className="text-7xl sm:!text-[135px] !font-thin !uppercase">
+         <h2 className="text-7xl sm:!text-[135px] !font-thin text-white !uppercase">
          Cityspace&nbsp; Contracts&nbsp; is&nbsp; Creating&nbsp; Modern, &nbsp; Innovative,&nbsp; Purposeful&nbsp; &&nbsp; Comfortable&nbsp; Spaces.&nbsp;
          </h2>
         </Marquee>

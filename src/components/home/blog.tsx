@@ -93,7 +93,9 @@ export default function Blogs() {
                 {cards.title}
               </h3>
               <p className="text-zinc-600 text-base !tracking-wide border-b pb-4">{cards.text.slice(0,160)}....</p><br />
-              <Link href={`blogs/${encodeURIComponent(cards?.title)}`} className="flex items-center gap-x-2 group/link">
+              <Link 
+href={`/blogs/${cards?.title.replace(/\s+/g, '-').toLowerCase()}`}
+className="flex items-center gap-x-2 group/link">
               <p className="text-sm text-black sm:font-extrabold">READ MORE</p> 
               <BsArrowUpRightCircleFill className="text-brown2 rounded-full text-xl bg-white group-hover/link:rotate-45 duration-300" />
             </Link>

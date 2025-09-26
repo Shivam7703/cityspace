@@ -23,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${jakarta.className}  bg-white`}>
+      <body className={`${jakarta.className} text-black bg-white`}>
         <Header />
         {children}
         <Footer footer={footer} />

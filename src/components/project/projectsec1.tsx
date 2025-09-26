@@ -25,14 +25,14 @@ export default function Projectsec1() {
 <div className=' gap-y-8 p-3 py-7 md:!py-12 flex flex-wrap justify-between items-stretch w-full'>
 {projectData?.projects &&
           projectData?.projects.slice(0,4).map((pro: any) => (
-<div key={pro?.id} className='lg:w-[23.4%] group sm:w-[48%] w-full'>
+<Link href={"/projects/detail"} key={pro?.id} className='lg:w-[23.4%] group sm:w-[48%] w-full'>
   <div className='relative md:h-96 h-64 mb-4 rounded-xl overflow-hidden'>
     <Image src={pro?.img} alt={"image"} className='absolute duration-300 top-0 left-0 w-full h-full object-cover group-hover:scale-110'/>
     <h4 className="font2 lg:text-7xl text-5xl text-white absolute top-4 right-4 z-40 duration-200 opacity-65 group-hover:opacity-100 font-extrabold ">0{pro?.id}</h4> 
   </div>
-  <Link href={"projects/xyz"} className='sm:text-3xl hover:text-brown2 text-2xl font2  text-black'>{pro?.title}</Link>
+  <div className='sm:text-3xl hover:text-brown2 text-2xl font2  text-black'>{pro?.title}</div>
   <p className='mt-3 text-zinc-800'>Once the design fee has been agreed, we will then visit the property to carry out a full site survey.</p>
-</div>
+</Link>
           ))}
 </div>
     </section>

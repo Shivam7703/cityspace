@@ -20,7 +20,7 @@ function CountDown({ data }: any) {
             
              
                   <div className=" text-brown2 font2 md:text-4xl text-3xl  xl:text-7xl font-medium">
-                  <CountUp start={0} end={counts.Value} delay={0.2} duration={2.75} separator="," /><span>+</span>
+                  <CountUp start={0} end={counts.Value} delay={0.2} duration={2.75} separator="," /><span>{counts?.value2}</span>
                   </div>
               
          

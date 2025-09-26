@@ -30,7 +30,7 @@ export default function Project() {
             {projectData.para}
           </p>
         )}
-        <Link href={"/projects"} className="w-max">
+        <Link href={"/projects/detail"} className="w-max">
           <div className="flex  gap-2 p-2 text-black hover:text-white font-bold rounded-[29px] group relative bg-white overflow-hidden items-center flex-row h-full">
             <p className="ml-5 mr-3 z-20">View All Projects</p>
             <FaCircleChevronRight className="text-brown2 text-4xl bg-white group-hover:text-black duration-200  rounded-full z-20" />
@@ -46,25 +46,27 @@ export default function Project() {
               key={pro.id}
               className="lg:h-[500px] relative md:h-96 h-72 w-full group rounded-3xl overflow-hidden"
             >
-              <Image
-                src={pro?.img}
-                alt=""
-                className="w-full h-full absolute z-10 top-0 left-0 group-hover:scale-110 duration-300"
-              />
-              <div className="absolute z-20 w-full sm:p-14 p-6 flex justify-between text-white items-end h-full bg-gradient-to-t from-[#000000ce] to-transparent top-0 left-0 ">
-                <div>
-                  <h2 className="sm:text-3xl text-2xl">{pro.title}</h2>
-                  <h4 className="sm:mt-4 mt-2 font-bold text-sm">{pro.text}</h4>
+              {" "}
+              <Link href={"/projects/detail"}>
+                <Image
+                  src={pro?.img}
+                  alt=""
+                  className="w-full h-full object-cover absolute z-10 top-0 left-0 group-hover:scale-110 duration-300"
+                />
+                <div className="absolute z-20 w-full sm:p-14 p-6 flex justify-between text-white items-end h-full bg-gradient-to-t from-[#000000ce] to-transparent top-0 left-0 ">
+                  <div>
+                    <h2 className="sm:text-3xl text-2xl">{pro.title}</h2>
+                    <h4 className="sm:mt-4 mt-2 font-bold text-sm">
+                      {pro.text}
+                    </h4>
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-x-2 group/link">
+                      <BsArrowUpRightCircleFill className="text-brown2 rounded-full text-3xl sm:text-6xl bg-white group-hover/link:rotate-45 duration-300" />
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <Link
-                    href={"projects/xyz"}
-                    className="flex items-center gap-x-2 group/link"
-                  >
-                    <BsArrowUpRightCircleFill className="text-brown2 rounded-full text-3xl sm:text-6xl bg-white group-hover/link:rotate-45 duration-300" />
-                  </Link>
-                </div>
-              </div>
+              </Link>
             </div>
           ))}
       </div>
